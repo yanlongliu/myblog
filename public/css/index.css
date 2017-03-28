@@ -1,0 +1,43 @@
+a {
+    display: flex;
+}
+
+
+/*compiles to:*/
+
+a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+input {
+    display: block;
+    width: 5rem;
+    height: 1rem;
+    border: 1px solid #333;
+    margin-top: 0.5rem;
+}
+
+.login-btn {
+    display: block;
+    width: 2rem;
+    height: 1rem;
+    background: #eee;
+}

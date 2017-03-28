@@ -1,1 +1,2 @@
-var a = 22;
+require('css/index');
+var df = 111;
