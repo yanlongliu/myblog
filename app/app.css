@@ -1,0 +1,14 @@
+:local(.className) {
+  background: red;
+  color:black;
+}
+ 
+:local(.subClass) {
+  composes: className;
+  background: blue;
+}
+.title {
+    background: red;
+  color: yellow;
+}
+ 
